@@ -1,6 +1,6 @@
 # cipher_kmh2259
 
-Python ppackage with the cipher function to encrypt text!
+Python package with the cipher function to encrypt text!
 
 ## Installation
 
