@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "cipher_kmh2259"
 version = "0.1.0"
-description = "Python ppackage with the cipher function to encrypt text!"
+description = "Python package with the cipher function to encrypt text!"
 authors = ["Krystal Hahn"]
 license = "MIT"
 readme = "README.md"
