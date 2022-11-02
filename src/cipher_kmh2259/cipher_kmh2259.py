@@ -7,7 +7,7 @@ def cipher(text, shift, encrypt=True):
     text : str
         A string that you want to encrypt/decrypt.
     shift : int
-        An integer for how many fixed positions down the alphabet you want each letter to be shifted.
+        An integer for how many fixed positions you want each letter to be shifted.
     encrypt : bool
         A boolean to designate whether to encrypt (True) or decrypt (False) the string.
 
@@ -21,15 +21,17 @@ def cipher(text, shift, encrypt=True):
     
     Encrypting
     ----------
-    >>> from cipher_kmh2259 import cipher_kmh2259
-    >>> cipher_kmh2259.cipher('apple', 3)
+    >>> text = 'apple'
+    >>> shift = 3
+    >>> cipher_kmh2259.cipher(text, shift, encrypt=True)
     'dssoh'
     string: 'dssoh'
     
     Decrypting
     ----------
-    >>> from cipher_kmh2259 import cipher_kmh2259
-    >>> cipher_kmh2259.cipher('apple', 3, encrypt=False)
+    >>> text = 'apple'
+    >>> shift = 3
+    >>> cipher_kmh2259.cipher(text, shift, encrypt=False)
     'Xmmib'
     string: 'Xmmib'
     """
